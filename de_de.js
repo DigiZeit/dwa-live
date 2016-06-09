@@ -574,6 +574,7 @@ M.I18N.de_de = {
     , fs431UebernachtungSelbstBezahlt: "Zimmer selbst bezahlt (Rechnung ist als Foto einzureichen)"
 
     , kolonneAendern: "Kolonne ändern"
+    , kolonneOhneBuchung: "Es gibt keine offene Buchung."
 
     , distanceTooFar: "Entfernung zu groß"
     , distanceTooFarMessage: "Die eingegebene Entfernung ist zu groß (max. 99999 km)."

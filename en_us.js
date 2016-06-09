@@ -575,6 +575,7 @@ M.I18N.en_us = {
     , fs431UebernachtungSelbstBezahlt: "Room paid by yourself (bill to be turned in as photo)"
 
     , kolonneAendern: "Change crew"
+    , kolonneOhneBuchung: "There is no open booking."
 
     , distanceTooFar: "Distance too big"
     , distanceTooFarMessage: "The distance you entered is too big (max. 99999 km)."
