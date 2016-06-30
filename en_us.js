@@ -160,7 +160,7 @@ M.I18N.en_us = {
 	, GPSunavailable: "The GPS-Receiver is not enabled! No geo location will be recorded!"
 	, GPStimeout: "The current geo position could not be determined!"
 	, GPSmissingPermission: "DIGI-WebApp is missing the permission to determine a geo position!"
-	, GPSalreadyRecieving: "The GPS-Receiver is busy! Try again?"
+	, GPSalreadyRecieving: "The GPS-Receiver is busy!"
 	, GPSunknownError: "Unkown GPS-Error: "
 	, ERROR: "Error"
 	, media: "Media"
@@ -177,7 +177,6 @@ M.I18N.en_us = {
 	, logout: "logging out"
 	, exitWebApp: "Exit DIGI-WebApp"
 	, takePicture: "New photo"
-	, takePictureDemo: "New photo (DEMO)"
 	, mediaList: "Medialist"
 	, saveAsContact: "As contact"
 	, saveAsContactSuccess: "Contact successfully saved"
@@ -201,7 +200,6 @@ M.I18N.en_us = {
 	, noApplicationUpdateAvailableMsg: "DIGI-WebApp is already up to date"
 	, useTransitionsSetting: "Transitions"
 	, waitingForDevice: "Please wait..."
-	, recordAudio: "Audiorecording (DEMO)"
 	, signature: "Signature"
 	, materialPickUp: "Material pick up"
 	, dailyChecklist: "Daily checklist (DEMO)"
@@ -220,7 +218,7 @@ M.I18N.en_us = {
 	, ZeitbuchungenKonntenNichtGeladenWerden: "The bookings could not be loaded! Check your internet connection!"
 	, ZeitbuchungenLaden: "Receiving bookings"
 	, since: "since"
-	, bookingSince: "current booking since"
+	, bookingSince: "Current booking since"
 	, empfangeUrlLoader: "Receiving database server"
 	, empfangeUrlError: "Unknown database server"
 	, empfangeUrlErrorMessage: "The appropriate databaseserver could not be determined!"
@@ -246,7 +244,7 @@ M.I18N.en_us = {
 	, dauer: "Duration"
 	, forward: "Forward"
 	, backward: "Backward"
-	, lastWorkday: "last work day"		
+	, lastWorkday: "Last work day"		
 	, buchungskoordinaten: "Booking coordinates"		
 	, auftragskoordinaten: "Order coordinates"
 	, Monday: "Monday"
@@ -479,9 +477,9 @@ M.I18N.en_us = {
 
 	, uebersicht: "Overview"
 
-	, bautagebuchWeitereZeitbuchung: "Another booking?"
+	, bautagebuchWeitereZeitbuchung: "Additional booking?"
 	, bautagebuchWeitereZeitbuchungMsg: "Add another booking using this selection?"
-	, bautagebuchWeiteresFoto: "Another image?"
+	, bautagebuchWeiteresFoto: "Additional image?"
 	, bautagebuchWeiteresFotoMsg: "Add another image for this selection?"
 	
 	, arbeitsbeginn: "Start of work"
@@ -579,4 +577,7 @@ M.I18N.en_us = {
 
     , distanceTooFar: "Distance too big"
     , distanceTooFarMessage: "The distance you entered is too big (max. 99999 km)."
+
+    , bautagebuchWeitereMaterialbuchung: "Additional material booking?"
+	, bautagebuchWeitereMaterialbuchungMsg: "Add another material booking using this selection?"
 };

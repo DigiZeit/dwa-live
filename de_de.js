@@ -41,7 +41,7 @@ M.I18N.de_de = {
 	, error: "Fehler"
 	, doClosingTime: "Feierabend wird durchgeführt..."
 	, confirmClosingTimeMessage: "Sind Sie sicher, dass Sie die Feierabendbuchung durchführen möchten?"
-	, openBookingsOverwriteBySettingsUpdate : "Es existieren nicht übertragene Buchungen. Möchten Sie die Einstellungen trotzdem ändern? Alle bestehenden Buchungen gehen verloren!"
+	, openBookingsOverwriteBySettingsUpdate: "Es existieren nicht übertragene Buchungen. Möchten Sie die Einstellungen trotzdem ändern? Alle bestehenden Buchungen gehen verloren!"
 	, yes: "Ja"
 	, no: "Nein"
 	, assume: "Übernehmen"
@@ -143,7 +143,7 @@ M.I18N.de_de = {
 	, offlineWork: "Offline"
 	, offlineWorkMsg: "Datenübertragung nicht möglich. Sie können mit den lokal zur Verfügung stehenden Daten weiterhin buchen."
 	, offlineWorkNotPossible: "Keine Verbindung"
-	, offlineWorkNotPossibleMsg: "Datenübertragung nicht möglich. Sie müssen eine vollständige Datenübertragung durchführen um weiter buchen zu können."
+	, offlineWorkNotPossibleMsg: "Datenübertragung nicht möglich. Sie müssen eine vollständige Datenübertragung durchführen, um weiter buchen zu können."
 	, noOrdersAvailable: "Fehler"
 	, noOrdersAvailableMsg: "Diesem Mitarbeiter sind keine Aufträge zugeordnet!"
 	, secretQuestion: "Alle Daten löschen?"
@@ -159,8 +159,8 @@ M.I18N.de_de = {
 	, wrongPasswordTitle: "Falsches Kennwort"
 	, GPSunavailable: "Der GPS-Sensor ist deaktiviert! Es kann keine Position ermittelt werden!"
 	, GPStimeout: "Es konnte keine GPS-Position ermittelt werden!"
-	, GPSmissingPermission: "Die DIGI-WebApp hat keine Berechtigung um GPS-Positionen zu ermitteln!"
-	, GPSalreadyRecieving: "Der GPS-Empfänger ist bereits beschäftigt! Erneut versuchen?"
+	, GPSmissingPermission: "Die DIGI-WebApp hat keine Berechtigung, um GPS-Positionen zu ermitteln!"
+	, GPSalreadyRecieving: "Der GPS-Empfänger ist bereits beschäftigt!"
 	, GPSunknownError: "Unbekannter GPS-Fehler: "
 	, ERROR: "Fehler"
 	, media: "Medien"
@@ -177,7 +177,6 @@ M.I18N.de_de = {
 	, logout: "Abmelden"
 	, exitWebApp: "DIGI-WebApp beenden"
 	, takePicture: "Neues Foto"
-	, takePictureDemo: "Neues Foto (DEMO)"
 	, mediaList: "Medienliste"
 	, saveAsContact: "Als Kontakt"
 	, saveAsContactSuccess: "Kontakt erfolgreich gespeichert"
@@ -201,7 +200,6 @@ M.I18N.de_de = {
 	, noApplicationUpdateAvailableMsg: "DIGI-WebApp ist bereits auf dem aktuellen Stand"
 	, useTransitionsSetting: "Animationen"
 	, waitingForDevice: "Bitte warten..."
-	, recordAudio: "Sprachaufzeichnung (DEMO)"
 	, signature: "Unterschrift"
 	, materialPickUp: "Materialerfassung"
 	, dailyChecklist: "Tagescheckliste (DEMO)"
@@ -220,7 +218,7 @@ M.I18N.de_de = {
 	, ZeitbuchungenKonntenNichtGeladenWerden: "Die Zeitbuchungen konnten nicht geladen werden! Prüfen Sie Ihre Internetverbindung!"
 	, ZeitbuchungenLaden: "Empfange Zeitbuchungen"
 	, since: "seit"
-	, bookingSince: "aktuelle Buchung seit"
+	, bookingSince: "Aktuelle Buchung seit"
 	, empfangeUrlLoader: "Empfange Datenbankserver"
 	, empfangeUrlError: "Unbekannter Datenbankserver"
 	, empfangeUrlErrorMessage: "Der zuständige Datenbankserver konnte nicht ermittelt werden! Versuchen Sie es später noch einmal."
@@ -233,9 +231,9 @@ M.I18N.de_de = {
 	, editPicture: "Bild bearbeiten"
 	, deleteLabel: "Löschen"
 	, errorWhileDeletingMediaFile: "Die Mediendatei konnte nicht gelöscht werden!"
-	, loadMediaFile: "lade Mediendatei"
-	, saveMediaFile: "speichere Mediendatei"
-	, deleteMediaFile: "lösche Mediendatei"
+	, loadMediaFile: "Lade Mediendatei"
+	, saveMediaFile: "Speichere Mediendatei"
+	, deleteMediaFile: "Lösche Mediendatei"
 	, profilingTook: "Dieser Datenabgleich dauerte"
 	, geozoneTrafficlight: "Geozonenampel"
 	, showBookingCoordinatesInMap: "Buchung in Karte zeigen"
@@ -246,7 +244,7 @@ M.I18N.de_de = {
 	, dauer: "Dauer"
 	, forward: "Vor"
 	, backward: "Zurück"
-	, lastWorkday: "letzter Arbeitstag"		
+	, lastWorkday: "Letzter Arbeitstag"		
 	, buchungskoordinaten: "Buchungskoordinaten"		
 	, auftragskoordinaten: "Auftraggskoordinaten"
 	, Monday: "Montag"
@@ -506,7 +504,7 @@ M.I18N.de_de = {
 	, BautagebuchUeberschneidendeZeitbuchungMsg: "Diese Zeitbuchung würde zu einer Überschneidung mit einem anderen Bautagesbericht führen! Trotzdem speichern?"
 	
 	, GPSenableHighAccuracy: 'GPS mit hoher Genauigkeit (sonst niedrig/Netzwerke)'
-	, GPSenableHighAccuracyFallback: 'GPS-Suche zusätzlich mit hoher Genauigkeit nach fehlendem Ergebnis mit nieriger Genauigkeit'
+	, GPSenableHighAccuracyFallback: 'GPS-Suche zusätzlich mit hoher Genauigkeit nach fehlendem Ergebnis mit niedriger Genauigkeit'
 	, GPSmaximumAgeMinutes: 'Maximales GPS-Alter (in Minuten)'
 	, GPSBackgroundService: 'GPS-Hintergrunddienst'
 	, GPSBackgroundServiceNotificationTitle: 'DIGI-WebApp GPS-Cache'
@@ -578,4 +576,7 @@ M.I18N.de_de = {
 
     , distanceTooFar: "Entfernung zu groß"
     , distanceTooFarMessage: "Die eingegebene Entfernung ist zu groß (max. 99999 km)."
+
+    , bautagebuchWeitereMaterialbuchung: "Weitere Materialbuchung?"
+	, bautagebuchWeitereMaterialbuchungMsg: "Weitere Materialbuchung für diese Auswahl anlegen?"
 };
